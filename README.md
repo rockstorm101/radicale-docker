@@ -31,8 +31,8 @@ To configure Radicale simply mount your customized configuration file at
 ```
 docker run -p 5232:5232 \
     -v radicale-data:/var/lib/radicale/collections \
-	-v ./radicale.config:/etc/radicale/config:ro \
-	rockstorm/radicale
+    -v ./radicale.config:/etc/radicale/config:ro \
+    rockstorm/radicale
 ```
 
 
