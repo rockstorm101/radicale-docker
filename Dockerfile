@@ -1,8 +1,8 @@
-FROM alpine:3.19.1
+FROM alpine:3.20.0
 
 RUN set -ex; \
     apk add --no-cache \
-        radicale=3.1.8-r2 \
+        radicale=3.1.9-r1 \
     ;
 
 COPY radicale.config /etc/radicale/config
