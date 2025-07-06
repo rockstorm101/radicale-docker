@@ -1,8 +1,8 @@
-FROM alpine:3.21.2
+FROM alpine:3.22.0
 
 RUN set -ex; \
     apk add --no-cache \
-        radicale=3.3.0-r0 \
+        radicale=3.5.4-r0 \
         py3-bcrypt \
     ;
 
